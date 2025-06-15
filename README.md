@@ -1,6 +1,7 @@
 # Hodl fun landing page
 
 *Automatically synced with your [v0.dev](https://v0.dev) deployments*
+changes
 
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/piyushjha0409s-projects/v0-hodl-fun-landing-page)
 [![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/5HsnYAaX6I7)
