@@ -45,6 +45,7 @@ export default function LandingPage() {
             <Button size="lg" className="bg-yellow-400 hover:bg-yellow-500 text-purple-900 font-bold text-lg px-8 py-4">
               Start Predicting <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
+          <a href="https://www.loom.com/share/e35ca963a0b74a1c9e30b50f5729a9a1?sid=5480c914-a063-483f-8fe7-a6f66f3201dc">
             <Button
               size="lg"
               variant="outline"
@@ -52,6 +53,7 @@ export default function LandingPage() {
             >
               Watch Demo
             </Button>
+          </a>  
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16">
