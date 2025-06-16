@@ -191,53 +191,23 @@ export default function LandingPage() {
       {/* Example Markets */}
       <section className="py-20 bg-black/20">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-yellow-400 mb-4">Live Markets</h2>
-            <p className="text-xl text-purple-200">Real predictions happening right now</p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-            <Card className="bg-purple-800/50 border-pink-500/30 backdrop-blur-sm hover:border-yellow-400/50 transition-colors cursor-pointer">
-              <CardContent className="p-6">
-                <div className="flex justify-between items-start mb-4">
-                  <Badge className="bg-green-500 text-white">Live</Badge>
-                  <span className="text-yellow-400 font-bold">$12.4K Volume</span>
-                </div>
-                <h3 className="text-lg font-bold text-yellow-300 mb-2">Will Solana flip ETH this year?</h3>
-                <div className="flex justify-between items-center">
-                  <span className="text-purple-200">YES: $0.34</span>
-                  <span className="text-pink-400">+12% today</span>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-purple-800/50 border-pink-500/30 backdrop-blur-sm hover:border-yellow-400/50 transition-colors cursor-pointer">
-              <CardContent className="p-6">
-                <div className="flex justify-between items-start mb-4">
-                  <Badge className="bg-green-500 text-white">Live</Badge>
-                  <span className="text-yellow-400 font-bold">$8.7K Volume</span>
-                </div>
-                <h3 className="text-lg font-bold text-yellow-300 mb-2">Will Drake drop an album in July?</h3>
-                <div className="flex justify-between items-center">
-                  <span className="text-purple-200">YES: $0.67</span>
-                  <span className="text-pink-400">+5% today</span>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-purple-800/50 border-pink-500/30 backdrop-blur-sm hover:border-yellow-400/50 transition-colors cursor-pointer">
-              <CardContent className="p-6">
-                <div className="flex justify-between items-start mb-4">
-                  <Badge className="bg-green-500 text-white">Live</Badge>
-                  <span className="text-yellow-400 font-bold">$23.1K Volume</span>
-                </div>
-                <h3 className="text-lg font-bold text-yellow-300 mb-2">New meme coin hits $100M in 48hrs?</h3>
-                <div className="flex justify-between items-center">
-                  <span className="text-purple-200">YES: $0.23</span>
-                  <span className="text-pink-400">+28% today</span>
-                </div>
-              </CardContent>
-            </Card>
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold text-yellow-400 mb-4">See It In Action</h2>
+            <p className="text-xl text-purple-200 mb-8">Watch how easy it is to predict and win</p>
+            <div className="w-full max-w-3xl mx-auto rounded-xl overflow-hidden shadow-2xl border-2 border-yellow-400/30 aspect-video bg-black">
+              <video 
+                autoPlay 
+                loop 
+                muted 
+                playsInline
+                controls
+                className="w-full h-full object-contain"
+                poster="/demo-poster.jpg"
+              >
+                <source src="/demo.mov" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
           </div>
         </div>
       </section>
