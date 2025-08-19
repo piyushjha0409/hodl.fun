@@ -13,6 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head><meta name="solads-site-verification" content="solads_verify_1755640378465_8c56007aac5182baf1c232277be5adaf" /></head>
       <body>{children}</body>
     </html>
   )
